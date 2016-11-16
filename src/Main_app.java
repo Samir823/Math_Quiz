@@ -3,6 +3,50 @@ import java.util.Scanner;
 public class Main_app {
 
 	public static void main(String[] args) {
+
+		int numOfQuestions = 10;
+		int count = 0;
+		int correctAnswers = 0;
+		while (count < numOfQuestions) {
+
+			int option = (int) (1 + Math.random() * 6);
+			count++;
+
+			switch (option) {
+			case 1:
+				if (addition())
+					correctAnswers++;
+				break;
+			case 2:
+				if (substraction())
+					correctAnswers++;
+				break;
+			case 3:
+				if (multiplication())
+					correctAnswers++;
+				break;
+			case 4:
+				if (division())
+					correctAnswers++;
+				break;
+			case 5:
+				if (squareRoot())
+					correctAnswers++;
+				break;
+			case 6:
+				if (pow())
+					correctAnswers++;
+				break;
+			default:
+				System.out.println("Nedefinisana opcija!");
+				break;
+			}
+
+		}
+		System.out.println("----------------------------");
+		System.out.println("Broj tacnih odgovora: " + correctAnswers);
+		System.out.println("Broj netacnih odgovora: " + (numOfQuestions - correctAnswers));
+
 	}
 
 	public static boolean addition() {
@@ -20,7 +64,7 @@ public class Main_app {
 			return true;
 
 		}
-		System.out.println("Odgovor netacan.");
+		System.out.println("Odgovor netacan.\nTacan odgovor je " + rez);
 		return false;
 
 	}
@@ -40,7 +84,7 @@ public class Main_app {
 			return true;
 
 		}
-		System.out.println("Odgovor netacan.");
+		System.out.println("Odgovor netacan.\nTacan odgovor je " + rez);
 		return false;
 	}
 
@@ -59,7 +103,7 @@ public class Main_app {
 			return true;
 
 		}
-		System.out.println("Odgovor netacan.");
+		System.out.println("Odgovor netacan.\nTacan odgovor je " + rez);
 		return false;
 	}
 
@@ -76,8 +120,7 @@ public class Main_app {
 
 			return true;
 		} else {
-			System.out.println("Odovor je netacan \nTacan odgovor je "
-					+ corectAnswer);
+			System.out.println("Odovor je netacan \nTacan odgovor je " + corectAnswer);
 
 			return false;
 
@@ -95,8 +138,7 @@ public class Main_app {
 			System.out.println("Odgovor je tacan ");
 			return true;
 		} else {
-			System.out.println("Odgvor je netacan\nTacan odgovor je "
-					+ Math.sqrt(num2));
+			System.out.println("Odgvor je netacan\nTacan odgovor je " + Math.sqrt(num2));
 			return false;
 		}
 	}
@@ -104,14 +146,13 @@ public class Main_app {
 	public static boolean pow() {
 		int num2 = (int) (Math.random() * 10) + 1;
 		Math.pow(num2, 2);
-		System.out.println("Koliko je korijen od " + num2);
+		System.out.println("Koliko je " + num2 + " na kvadrat");
 
 		if (scanner() == Math.pow(num2, 2)) {
 			System.out.println("Odgovor je tacan ");
 			return true;
 		} else {
-			System.out.println("Odgvor je netacan\nTacan odgovor je "
-					+ Math.pow(num2, 2));
+			System.out.println("Odgovor je netacan\nTacan odgovor je " + Math.pow(num2, 2));
 			return false;
 		}
 
