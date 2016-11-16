@@ -4,15 +4,9 @@ public class Main_app {
 
 	public static void main(String[] args) {
 
-<<<<<<< HEAD
+
 	}
 
-	public static void addition() {
-
-=======
-	
-		System.out.println(addition());
-		}
 
 	public static boolean addition() {
 		
@@ -32,11 +26,25 @@ public class Main_app {
 		System.out.println("Odgovor netacan.");
 		return false;	
 	
->>>>>>> 07fb2ef27ba4c591d40009654717a8ec5ceb84dd
 	}
 
-	public static void substraction() {
-
+	public static boolean substraction() {
+		
+		int num1 = 1 + (int)(Math.random() * 10);
+		int num2 = 1 + (int)(Math.random() * 10);
+		
+		int rez = num1 - num2;
+		
+		System.out.println("Unesite odgovor: " +num1+ " - " +num2);
+		int user = (int)scanner();
+		
+		if(rez == user){
+			System.out.println("Odgovor tacan.");
+			return true;
+			
+		}
+		System.out.println("Odgovor netacan.");
+		return false;	
 	}
 
 	public static void multiplication() {
