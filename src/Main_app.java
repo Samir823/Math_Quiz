@@ -9,8 +9,19 @@ public class Main_app {
 		// TODO Auto-generated method stub
 	}
 
-	public static void addition() {
+	public static boolean addition() {
+		double num1 = Math.random() * 10;
+		double num2 = Math.random() * 10;
+		
+		double rez = num1 + num2;
+		double user = scanner();
+		
+		if(rez == user){
+			return true;
+		}
 
+		return false;	
+	
 	}
 
 	public static void substraction() {
