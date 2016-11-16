@@ -1,0 +1,71 @@
+*   [33m08854a1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Merge pull request #16 from Samir823/pow
+[31m|[m[32m\[m  
+[31m|[m *   [33mbec7dc3[m[33m ([m[1;31morigin/pow[m[33m, [m[1;32mpow[m[33m)[m Merge branch 'master' of https://github.com/Samir823/Math_Quiz into pow
+[31m|[m [33m|[m[31m\[m  
+[31m|[m [33m|[m[31m/[m  
+[31m|[m[31m/[m[33m|[m   
+* [33m|[m   [33mc02784c[m Merge pull request #15 from Samir823/squareRoot
+[35m|[m[36m\[m [33m\[m  
+[35m|[m [36m|[m * [33m1600313[m Pow method
+[35m|[m [36m|[m[36m/[m  
+[35m|[m *   [33m884a43c[m[33m ([m[1;31morigin/squareRoot[m[33m, [m[1;32msquareRoot[m[33m)[m izmjena
+[35m|[m [1;31m|[m[35m\[m  
+[35m|[m [1;31m|[m[35m/[m  
+[35m|[m[35m/[m[1;31m|[m   
+* [1;31m|[m   [33ma41b608[m Merge pull request #14 from Samir823/multiplication-metoda
+[1;33m|[m[1;34m\[m [1;31m\[m  
+[1;33m|[m * [1;31m|[m [33mf384a4e[m multiplication added
+[1;33m|[m * [1;31m|[m   [33m3653f8b[m fixed conflict
+[1;33m|[m [1;35m|[m[1;33m\[m [1;31m\[m  
+[1;33m|[m [1;35m|[m[1;33m/[m [1;31m/[m  
+[1;33m|[m[1;33m/[m[1;35m|[m [1;31m|[m   
+[1;33m|[m * [1;31m|[m   [33m1926e78[m auch
+[1;33m|[m [31m|[m[32m\[m [1;31m\[m  
+[1;33m|[m [31m|[m [32m|[m * [33meee86f1[m SquareRoot-method
+[1;33m|[m [31m|[m[1;33m_[m[32m|[m[1;33m/[m  
+[1;33m|[m[1;33m/[m[31m|[m [32m|[m   
+* [31m|[m [32m|[m   [33m67ea7b1[m Merge pull request #13 from Samir823/substraction-metoda
+[33m|[m[34m\[m [31m\[m [32m\[m  
+[33m|[m * [31m\[m [32m\[m   [33m82b98d1[m[33m ([m[1;31morigin/substraction-metoda[m[33m)[m fixed conflict
+[33m|[m [35m|[m[33m\[m [31m\[m [32m\[m  
+[33m|[m [35m|[m[33m/[m [31m/[m [32m/[m  
+[33m|[m[33m/[m[35m|[m [31m|[m [32m|[m   
+* [35m|[m [31m|[m [32m|[m   [33m2c6e56e[m Merge pull request #12 from Samir823/division-method
+[32m|[m[1;32m\[m [35m\[m [31m\[m [32m\[m  
+[32m|[m [1;32m|[m[32m_[m[35m|[m[32m_[m[31m|[m[32m/[m  
+[32m|[m[32m/[m[1;32m|[m [35m|[m [31m|[m   
+[32m|[m * [35m|[m [31m|[m   [33m4112db0[m[33m ([m[1;31morigin/division-method[m[33m, [m[1;32mdivision-method[m[33m)[m druga verzija division-method
+[32m|[m [1;33m|[m[32m\[m [35m\[m [31m\[m  
+[32m|[m [1;33m|[m[32m/[m [35m/[m [31m/[m  
+[32m|[m[32m/[m[1;33m|[m [35m|[m [31m|[m   
+[32m|[m * [35m|[m [31m|[m [33m6e6a536[m Druga verzija division-methode
+[32m|[m [1;34m|[m * [31m|[m [33medf7860[m oduzimanje dodano
+[32m|[m [1;34m|[m * [31m|[m   [33m787f753[m aha
+[32m|[m [1;34m|[m [31m|[m[32m\[m [31m\[m  
+[32m|[m [1;34m|[m[32m_[m[31m|[m[32m/[m [31m/[m  
+[32m|[m[32m/[m[1;34m|[m [31m|[m [31m/[m   
+[32m|[m [1;34m|[m [31m|[m[31m/[m    
+* [1;34m|[m [31m|[m   [33m07fb2ef[m Merge pull request #11 from Samir823/addition-metoda
+[31m|[m[32m\[m [1;34m\[m [31m\[m  
+[31m|[m * [1;34m|[m [31m|[m [33m8043265[m[33m ([m[1;31morigin/addition-metoda[m[33m)[m addition ispolirana
+[31m|[m * [1;34m|[m [31m|[m [33me14a582[m fixed addition
+[31m|[m * [1;34m|[m [31m|[m [33mb34e02b[m addition
+* [32m|[m [1;34m|[m [31m|[m   [33m07305d9[m Merge pull request #10 from Samir823/division-method
+[32m|[m[1;34m\[m [32m\[m [1;34m\[m [31m\[m  
+[32m|[m [1;34m|[m[32m/[m [1;34m/[m [31m/[m  
+[32m|[m[32m/[m[1;34m|[m [1;34m/[m [31m/[m   
+[32m|[m [1;34m|[m[1;34m/[m [31m/[m    
+[32m|[m * [31m|[m [33m515e90c[m Zalutali paket
+[32m|[m[32m/[m [31m/[m  
+[32m|[m *   [33m81ca97e[m Merge branch 'master' of https://github.com/Samir823/Math_Quiz
+[32m|[m [35m|[m[32m\[m  
+[32m|[m [35m|[m[32m/[m  
+[32m|[m[32m/[m[35m|[m   
+* [35m|[m   [33m64a6200[m Merge pull request #8 from Samir823/scanner-method
+[1;31m|[m[1;32m\[m [35m\[m  
+[1;31m|[m * [35m|[m [33m1c5961e[m[33m ([m[1;31morigin/scanner-method[m[33m, [m[1;32mscanner-method[m[33m)[m Input Scanner method
+[1;31m|[m[1;31m/[m [35m/[m  
+[1;31m|[m * [33m3cc050e[m gut
+[1;31m|[m[1;31m/[m  
+* [33m1b6f0b4[m Dopuna
+* [33m0329a33[m Initial setup
