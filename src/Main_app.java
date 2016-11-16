@@ -1,20 +1,18 @@
 import java.util.Scanner;
 
-import javax.swing.text.StyledEditorKit.BoldAction;
-
 public class Main_app {
 
 	public static void main(String[] args) {
 
-		// TODO Auto-generated method stub
-	}
+		}
 
 	public static boolean addition() {
-		double num1 = Math.random() * 10;
-		double num2 = Math.random() * 10;
 		
-		double rez = num1 + num2;
-		double user = scanner();
+		int num1 = (int) Math.random() * 10;
+		int num2 = (int) Math.random() * 10;
+		
+		int rez = num1 + num2;
+		int user = (int)scanner();
 		
 		if(rez == user){
 			return true;
