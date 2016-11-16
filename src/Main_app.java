@@ -4,7 +4,6 @@ public class Main_app {
 
 	public static void main(String[] args) {
 
-		// TODO Auto-generated method stub
 	}
 
 	public static void addition() {
@@ -19,11 +18,25 @@ public class Main_app {
 
 	}
 
-	public static boolean division(double odgovor) {
-		int num1 = (int) (Math.random() * 10);
-		int num2 = (int) (Math.random() * 10);
+	public static boolean division() {
+		int num1 = (int) (Math.random() * 10) + 10;
+		int num2 = (int) (Math.random() * 10) + 1;
 
-		return true;
+		double corectAnswer = num1 / num2;
+
+		System.out.println("Unesite tacan odgovor: " + num1 + "/" + num2);
+
+		if (scanner() == corectAnswer) {
+			System.out.println("Odovor je tacan ");
+
+			return true;
+		} else {
+			System.out.println("Odovor je netacan \nTacan odgovor je "
+					+ corectAnswer);
+
+			return false;
+
+		}
 
 	}
 
