@@ -101,7 +101,19 @@ public class Main_app {
 		}
 	}
 
-	public static void pow(double a) {
+	public static boolean pow() {
+		int num2 = (int) (Math.random() * 10) + 1;
+		Math.pow(num2, 2);
+		System.out.println("Koliko je korijen od " + num2);
+
+		if (scanner() == Math.pow(num2, 2)) {
+			System.out.println("Odgovor je tacan ");
+			return true;
+		} else {
+			System.out.println("Odgvor je netacan\nTacan odgovor je "
+					+ Math.pow(num2, 2));
+			return false;
+		}
 
 	}
 
