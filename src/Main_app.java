@@ -4,52 +4,70 @@ public class Main_app {
 
 	public static void main(String[] args) {
 
-<<<<<<< HEAD
 		// TODO Auto-generated method stub
 	}
 
 	public static boolean addition() {
-		double num1 = 1 + Math.random() * 10;
-		double num2 = 1 + Math.random() * 10;
-=======
-	
-		System.out.println(addition());
-		}
 
-	public static boolean addition() {
-		
-		int num1 = 1 + (int)(Math.random() * 10);
-		int num2 = 1 + (int)(Math.random() * 10);
-		
+		int num1 = 1 + (int) (Math.random() * 10);
+		int num2 = 1 + (int) (Math.random() * 10);
+
 		int rez = num1 + num2;
-		
-		System.out.println("Unesite odgovor: " +num1+ " + " +num2);
-		int user = (int)scanner();
-		
-		if(rez == user){
+
+		System.out.println("Unesite odgovor: " + num1 + " + " + num2);
+		int user = (int) scanner();
+
+		if (rez == user) {
 			System.out.println("Odgovor tacan.");
 			return true;
-			
+
 		}
 		System.out.println("Odgovor netacan.");
-		return false;	
-	
->>>>>>> 07fb2ef27ba4c591d40009654717a8ec5ceb84dd
+		return false;
+
 	}
 
-	public static void substraction() {
+	public static boolean substraction() {
 
+		int num1 = 1 + (int) (Math.random() * 10);
+		int num2 = 1 + (int) (Math.random() * 10);
+
+		int rez = num1 - num2;
+
+		System.out.println("Unesite odgovor: " + num1 + " - " + num2);
+		int user = (int) scanner();
+
+		if (rez == user) {
+			System.out.println("Odgovor tacan.");
+			return true;
+
+		}
+		System.out.println("Odgovor netacan.");
+		return false;
 	}
 
 	public static void multiplication() {
 
 	}
 
-	public static boolean division(double odgovor) {
-		int num1 = (int) (Math.random() * 10);
-		int num2 = (int) (Math.random() * 10);
+	public static boolean division() {
+		int num1 = (int) (Math.random() * 10) + 10;
+		int num2 = (int) (Math.random() * 10) + 1;
 
-		return true;
+		double corectAnswer = num1 / num2;
+
+		System.out.println("Unesite tacan odgovor: " + num1 + "/" + num2);
+
+		if (scanner() == corectAnswer) {
+			System.out.println("Odovor je tacan ");
+
+			return true;
+		} else {
+			System.out.println("Odovor je netacan \nTacan odgovor je " + corectAnswer);
+
+			return false;
+
+		}
 
 	}
 
