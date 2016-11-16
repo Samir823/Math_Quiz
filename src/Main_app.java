@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class Main_app {
 
 	public static void main(String[] args) {
-
-		// TODO Auto-generated method stub
 	}
 
 	public static boolean addition() {
@@ -78,7 +76,8 @@ public class Main_app {
 
 			return true;
 		} else {
-			System.out.println("Odovor je netacan \nTacan odgovor je " + corectAnswer);
+			System.out.println("Odovor je netacan \nTacan odgovor je "
+					+ corectAnswer);
 
 			return false;
 
@@ -86,7 +85,20 @@ public class Main_app {
 
 	}
 
-	public static void squareRoot(double a) {
+	public static boolean squareRoot() {
+
+		int num2 = (int) (Math.random() * 100) + 1;
+
+		System.out.println("Koliko je korijen od " + num2);
+
+		if (scanner() == Math.sqrt(num2)) {
+			System.out.println("Odgovor je tacan ");
+			return true;
+		} else {
+			System.out.println("Odgvor je netacan\nTacan odgovor je "
+					+ Math.sqrt(num2));
+			return false;
+		}
 	}
 
 	public static void pow(double a) {
