@@ -1,3 +1,7 @@
+import java.util.Scanner;
+
+import javax.swing.text.StyledEditorKit.BoldAction;
+
 public class Main_app {
 
 	public static void main(String[] args) {
@@ -18,7 +22,11 @@ public class Main_app {
 
 	}
 
-	public static void division() {
+	public static boolean division(double odgovor) {
+		int num1 = (int) (Math.random() * 10);
+		int num2 = (int) (Math.random() * 10);
+
+		return true;
 
 	}
 
@@ -26,6 +34,16 @@ public class Main_app {
 	}
 
 	public static void pow(double a) {
+
+	}
+
+	public static double scanner() {
+
+		Scanner input = new Scanner(System.in);
+
+		double answer = input.nextDouble();
+
+		return answer;
 
 	}
 
