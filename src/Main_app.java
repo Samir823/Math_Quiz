@@ -3,48 +3,46 @@ import java.util.Scanner;
 public class Main_app {
 
 	public static void main(String[] args) {
-
-
+squareRoot();
 	}
 
-
 	public static boolean addition() {
-		
-		int num1 = 1 + (int)(Math.random() * 10);
-		int num2 = 1 + (int)(Math.random() * 10);
-		
+
+		int num1 = 1 + (int) (Math.random() * 10);
+		int num2 = 1 + (int) (Math.random() * 10);
+
 		int rez = num1 + num2;
-		
-		System.out.println("Unesite odgovor: " +num1+ " + " +num2);
-		int user = (int)scanner();
-		
-		if(rez == user){
+
+		System.out.println("Unesite odgovor: " + num1 + " + " + num2);
+		int user = (int) scanner();
+
+		if (rez == user) {
 			System.out.println("Odgovor tacan.");
 			return true;
-			
+
 		}
 		System.out.println("Odgovor netacan.");
-		return false;	
-	
+		return false;
+
 	}
 
 	public static boolean substraction() {
-		
-		int num1 = 1 + (int)(Math.random() * 10);
-		int num2 = 1 + (int)(Math.random() * 10);
-		
+
+		int num1 = 1 + (int) (Math.random() * 10);
+		int num2 = 1 + (int) (Math.random() * 10);
+
 		int rez = num1 - num2;
-		
-		System.out.println("Unesite odgovor: " +num1+ " - " +num2);
-		int user = (int)scanner();
-		
-		if(rez == user){
+
+		System.out.println("Unesite odgovor: " + num1 + " - " + num2);
+		int user = (int) scanner();
+
+		if (rez == user) {
 			System.out.println("Odgovor tacan.");
 			return true;
-			
+
 		}
 		System.out.println("Odgovor netacan.");
-		return false;	
+		return false;
 	}
 
 	public static void multiplication() {
@@ -73,7 +71,20 @@ public class Main_app {
 
 	}
 
-	public static void squareRoot(double a) {
+	public static boolean squareRoot() {
+
+		int num2 = (int) (Math.random() * 100) + 1;
+
+		System.out.println("Koliko je korijen od " + num2);
+
+		if (scanner() == Math.sqrt(num2)) {
+			System.out.println("Odgovor je tacan ");
+			return true;
+		} else {
+			System.out.println("Odgvor je netacan\nTacan odgovor je "
+					+ Math.sqrt(num2));
+			return false;
+		}
 	}
 
 	public static void pow(double a) {
